@@ -11,7 +11,7 @@ from email.utils import formatdate
 PORT = 8000
 LOG_FILE = "access.log"
 DISCORD_WEBHOOK = ("https://discordapp.com/api/webhooks/1489710641605251226/vu2IK20KKBLcJzyuDS8gqP0ciu7S5dh3D9O0MMsJ2DAseYIVV9fJfSImln-4tfBE8Z_c") 
-PIXEL_PATH = "/tracking_pixel.gif"
+PIXEL_PATH = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT24ZddUcXOopNnnVhUZXw1FIEZjcWy3Z7fEA&s"
 PIXEL_DATA = b'GIF89a\x01\x00\x01\x00\x80\x00\x00\xff\xff\xff\x00\x00\x00!\xf9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x01\x00\x01\x00\x00\x02\x02D\x01\x00;'
 
 class TrackingHandler(BaseHTTPRequestHandler):
